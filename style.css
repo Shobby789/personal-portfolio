@@ -33,15 +33,40 @@
   opacity: 0.9;
 }
 
-@media screen and (max-width: 376) {
+@media screen and (max-width: 360px) {
   .section-one {
     height: 110vh;
   }
+  .section-one h1 {
+    font-size: 7.5vw;
+  }
+
+  .section-one p {
+    font-size: 6vw;
+  }
+
+  .section-one h6 {
+    font-size: 5vw;
+    width: 66%;
+  }
+
+  .profile-circle {
+    width: 80%;
+    height: 250px;
+    border: 8px solid white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url("./image/shoaib-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+  }
 }
 
-@media (min-width: 377px) and (max-width: 500px) {
+@media screen and (min-width: 361px) and (max-width: 500px) {
   .section-one {
-    height: 90vh;
+    height: 102vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,7 +88,7 @@
 
   .profile-circle {
     width: 70%;
-    height: 250px;
+    height: 270px;
     border: 8px solid white;
     border-radius: 50%;
     margin: auto;
@@ -75,7 +100,7 @@
   }
 }
 
-@media (min-width: 501px) and (max-width: 1022px) {
+@media screen and (min-width: 501px) and (max-width: 1024px) {
   .section-one {
     height: 50vh !important;
     display: flex;
