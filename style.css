@@ -1,0 +1,98 @@
+.section-one {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-one h1 {
+  font-size: 3vw;
+}
+
+.section-one p {
+  font-size: 2.2vw;
+}
+
+.section-one h6 {
+  font-size: 1.5vw;
+  width: 66%;
+}
+
+.profile-circle {
+  width: 70%;
+  height: 350px;
+  border: 13px solid white;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 30px;
+  background-image: url("./image/shoaib-removebg-preview.png");
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 500px) {
+  .section-one {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-one h1 {
+    font-size: 7.5vw;
+  }
+
+  .section-one p {
+    font-size: 6vw;
+  }
+
+  .section-one h6 {
+    font-size: 5vw;
+    width: 66%;
+  }
+
+  .profile-circle {
+    width: 70%;
+    height: 250px;
+    border: 8px solid white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url("./image/shoaib-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1022px) {
+  .section-one {
+    height: 50vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-circle {
+    width: 80%;
+    height: 220px;
+    border: 8px solid white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url("./image/shoaib-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1222px) {
+  .section-one {
+    height: 70vh;
+  }
+}
