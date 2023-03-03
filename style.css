@@ -33,7 +33,13 @@
   opacity: 0.9;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 376) {
+  .section-one {
+    height: 110vh;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 500px) {
   .section-one {
     height: 90vh;
     display: flex;
